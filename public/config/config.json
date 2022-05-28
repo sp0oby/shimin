@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xF6182F4C49EFdea4c4F82604afbD585b4c7f4CC2",
+  "SCAN_LINK": "https://etherscan.io/address/0xf6182f4c49efdea4c4f82604afbd585b4c7f4cc2",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "SHIMIN",
+  "SYMBOL": "SHIMIN",
+  "MAX_SUPPLY": 1000,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 0.05,
+  "GAS_LIMIT": 96000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/slazuki",
+  "SHOW_BACKGROUND": true
+}
