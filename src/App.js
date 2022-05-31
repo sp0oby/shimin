@@ -295,7 +295,7 @@ function App() {
                       color: "var(--accent-text)",
                     }}
                   >
-                    Connect to the {CONFIG.NETWORK.NAME} network
+                    We are not live yet
                   </s.TextDescription>
                   <s.SpacerSmall />
                   <StyledButton
