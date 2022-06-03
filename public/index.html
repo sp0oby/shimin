@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8" />
   <base href="/" />
-  <link rel="icon" href="/Users/brandonmccall/Desktop/slazuki-main/public/config/images/favicon.ico" />
+  <link href="favicon.ico" rel="icon">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <link rel="stylesheet" href="%PUBLIC_URL%/config/theme.css" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="apple-touch-icon" href="favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -16,9 +16,9 @@
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <!-- icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/Users/brandonmccall/Desktop/slazuki-main/public/config/images/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/Users/brandonmccall/Desktop/slazuki-main/public/config/images/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="/Users/brandonmccall/Desktop/slazuki-main/public/config/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -56,17 +56,17 @@
               <!-- <a class="nav-link" href="#about" style="padding-left: 5.5rem; text-decoration: double;">About</a> -->
               <a class="nav-link" href="#roadmap" style="padding-left: 5.5rem;">Roadmap</a>
               <a class="nav-link " href="#team" style="padding-left: 5.5rem;">Team</a>
-              <a class="nav-link " href="https://discord.gg/FxUtchex9B" style="padding-left: 5.5rem;">Discord</a>
+              <a class="nav-link " href="https://discord.gg/zcpRQxTHSE" style="padding-left: 5.5rem;">Discord</a>
               <a class="nav-link " href="https://twitter.com/MetaverseShimin"
                 style="padding-left: 5.5rem;">Twitter</a>
               <a class="nav-link "
                 href=""
                 style="padding-left: 5.5rem;">Citizens DAO</a>
               <a class="nav-link " href="" style="padding-left: 5.5rem;">Opensea</a>
-              <a class="nav-link " href="" style="padding-left: 5.5rem;">Medium</a>
+              <a class="nav-link " href="" style="padding-left: 5.5rem;">Rarity</a>
               <!-- <i class="icon icon-opensea"></i>
               <i class="fab fa-twitter"></i> -->
-              <a href="https://discord.gg/FxUtchex9B"><i class="icon icon-discord"></i><span
+              <a href="https://discord.gg/zcpRQxTHSE"><i class="icon icon-discord"></i><span
                   class="sr-only">name-1</span></a>
               <a href="https://twitter.com/MetaverseShimin"><i class="icon icon-twitter"></i><span
                   class="sr-only">twitter</span></a>
@@ -87,7 +87,7 @@
 
 
 <body>
-
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
@@ -98,6 +98,7 @@
         <img src="/config/images/About2.png" alt="ROADMAP" style="width: 75%;">
       </section>
     </div> -->
+
 
     <div class="roadmap">
       <section id="roadmap" class="roadmap-section shown"
@@ -117,6 +118,10 @@
       </section>
     </div>
   </div>
+  <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+  <audio id="player" autoplay loop>
+      <source src="lofi.mp3" type="audio/mp3">
+  </audio>
 
 
 </body>
