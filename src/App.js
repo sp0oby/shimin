@@ -202,7 +202,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 0, backgroundColor: "black" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/logo.gif" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/logo.png" : null}
       >
         {/* <StyledLogo alt={"logo"} src={"/config/images/logo.png"} /> */}
         {/* <s.SpacerLarge />
@@ -219,7 +219,7 @@ function App() {
             jc={"center"}
             ai={"center"}
             width="100vw"
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/logo.gif" : null}
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/logo.png" : null}
             style={{
 
 
