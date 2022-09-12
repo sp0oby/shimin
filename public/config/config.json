@@ -4,13 +4,13 @@
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
   "NFT_NAME": "SHIMIN METAVERSE",
   "SYMBOL": "SHIMIN",
   "MAX_SUPPLY": 4444,
   "WEI_COST": 50000000000000000,
-  "DISPLAY_COST": 0.05,
+  "DISPLAY_COST": 0.001,
   "GAS_LIMIT": 96000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io",
