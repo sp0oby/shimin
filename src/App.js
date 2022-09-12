@@ -305,7 +305,7 @@ function App() {
                         getData();
                       }}
                     >
-                      Mint Soon.
+                      CONNECT
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
